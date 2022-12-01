@@ -1,4 +1,4 @@
-# [Posit - FIFA22 App <img src="./images/logo3.gif" width="60" align="center" />](https://posit-fifa22.netlify.app/)
+# [Posit - FIFA22 App](https://posit-fifa22.netlify.app/)
 
 > Table Contest 2022 - RMarkdown Dashboard
 
