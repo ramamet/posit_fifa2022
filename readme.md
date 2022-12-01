@@ -1,8 +1,6 @@
-#[Posit - FIFA22 App](https://posit-fifa22.netlify.app/)
+# [Posit - FIFA22 App](https://posit-fifa22.netlify.app/)
 
 > Table Contest 2022 - RMarkdown Dashboard
-
-I will participate in the RStudio/Posit Table Contest: 2022 Edition with the following FIFA22 RMarkdown App. This contest will help us to showcase the potential of standalone RMarkdown analytical dashboards (without server-side computations!!). I have employed some interesting functions from HTML+SCSS+JS and interactive visualization libraries of R. For further information, please visit the following link: (https://posit-fifa22.netlify.app/). Your feedback is highly appreciated and will help me to improve further. 
 
 RShiny has been successfully applied to many sports analytics dashboards. However, there has not been much application of standalone RMarkdown dashboards in sports analytics, though RMarkdown is generally used for PDF/simple HTML report generations. 
 
