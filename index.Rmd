@@ -46,8 +46,8 @@ options(encoding = 'UTF-8')
 #? load raw data
 players_22 <-read_csv("./data/players_22.csv", locale = locale(encoding = "UTF-8"))
 
-fifa_df <- players_22 %>%
-           filter(wage_eur>22000 & overall > 75 & value_eur >= 10e6)
+#? subset data
+fifa_df <- players_22 %>% filter(wage_eur>22000 & overall > 75 & value_eur >= 10e6)
 
 #? top value countries
 nat_df <- read.csv('./data/nationality_comp.csv') 
@@ -59,9 +59,10 @@ club_pos <- read.csv('./data/club_positions.csv') %>% select(-X)
 
 
 ```{r,echo=FALSE}
-source('./functions/utils.R', local = knitr::knit_global())
+#? load functions
+source('./functions/fun_gauge.R', local = knitr::knit_global())
 source('./functions/fun_country.R', local = knitr::knit_global())
-source('./functions/fun_ct_player.R', local = knitr::knit_global())
+source('./functions/fun_player_table.R', local = knitr::knit_global())
 source('./functions/fun_soccer_positions.R', local = knitr::knit_global())
 source('./functions/fun_compare_players.R', local = knitr::knit_global())
 source('./functions/fun_transfers.R', local = knitr::knit_global())
@@ -108,11 +109,6 @@ $("#tile2" ).on(
 #  {.unnumbered .tabset .tabset-fade .tabset-pills}
 
 ## Home {.unnumbered}
-
-
-```{r,echo=FALSE}
-#htmltools::includeHTML("full_screen.html")
-```
 
 <div class="div_home">
 

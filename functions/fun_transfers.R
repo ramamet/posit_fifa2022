@@ -52,11 +52,6 @@ nodes_df <- cbind(club_df, bind_club) %>%
             shadow=TRUE)
  
 #?
-# img_src <- knitr::image_uri(sprintf("./data/club_logo/20801.png"))
-# image <- img(src = img_src, height = "20px", alt = "")
-# image_html <- tagList(
-#                 tags$div(style = "width:50%;", image))
-
 uniq_club <- players_22 %>% 
               dplyr::select(club_name, club_logo_url) %>%
               filter(club_name %in% c(nodes_df$id)) %>%
@@ -64,7 +59,6 @@ uniq_club <- players_22 %>%
 
 nodes <- nodes_df %>%
         left_join(uniq_club, by=c('id'='club_name'))%>%
-        #mutate(image = image_html)
         rename(image=club_logo_url)
 ####
  visNetwork(nodes, edges,  height = "520px", width = "95%")  %>%

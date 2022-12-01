@@ -42,27 +42,7 @@ g2(sub3, asp(rating, val)) %>%
 
 }
 
-####
-fun_card_container2 <- function(img_name='life.svg', user_name='Ram', id=1) {
-  
-  div(class= 'card',
-        div(class='front',
-            div(class = "card-img-top", img(src = paste0("./data/images/",{img_name},'.png',sep=""))),
-            div(class='card-body text-center',
-            div(class = 'card-title', (glue::glue({paste0(df$int_overall_rating[id],' (',df$str_nationality[id],')')})))            
-            )
-        ),
-        div(class='back', fun_gg(id))
-       )
-}
-
-####
-
-fun_card <- function(i){
-fun_card_container2(img_name=df$int_player_id[i], user_name=df$str_player_name[i], id=i)
-}
-
-#? nov 2022
+#? player positions 
 
 fun_nat_pl_positions <- function(country = 'Germany'){
 

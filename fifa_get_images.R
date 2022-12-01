@@ -24,15 +24,11 @@ ps1 <- fifa_top %>%
        slice(1:200)%>%
        as_tibble()
 
-# write.csv(ps1, './data/top200_overall.csv', row.names=FALSE)
-
+#? number of rows
 NR <- nrow(ps1) 
 
-##
-# url1 <- ps1$player_face_url[1]
-# download.file(url1, "test.png", mode = "wb")
-
-### get player face images
+#
+#? get player face images
 fun_player_image <- function(row_id=1) {
 url1 <- ps1$player_face_url[row_id]
 sofifa_id <- ps1$sofifa_id[row_id]
@@ -47,8 +43,8 @@ for(i in 1:NR){
     print('done!')  
 }
 
-###
-### get club_logo_url
+
+#? get club_logo_url
 fun_club_logo <- function(row_id=1) {
 url1 <- ps1$club_logo_url[row_id]
 sofifa_id <- ps1$sofifa_id[row_id]
@@ -63,11 +59,8 @@ for(i in 1:NR){
     print('done!')  
 }
 
-###
-
-###
-### get national flag
-#ps2 <- dd1 %>% arrange(desc(value_eur))
+#
+#? get national flag
 fun_flag <- function(row_id=1) {
 url1 <- ps1$nation_flag_url[row_id]
 sofifa_id <- ps1$sofifa_id[row_id]
