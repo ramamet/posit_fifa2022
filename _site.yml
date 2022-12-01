@@ -1,0 +1,12 @@
+name: "FIFA22"                                
+output_dir: "_site"
+navbar:
+  title: "FIFA22"                            
+  type: inverse
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: https://multiscal.netlify.app/                  
+  html_document:
+    theme: spacelab
+    highlight: textmate
