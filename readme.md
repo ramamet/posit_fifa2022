@@ -3,7 +3,7 @@
 > Table Contest 2022 - RMarkdown Dashboard
 
 #### What is this?
-R, HTML, CSS, and JS are an immensely powerful combination for developing and hosting standalone data-analytics web applications. This FIFA22 app demonstrates how to develope an RMarkdown application deployed in Netlify using the GitHub repo.
+R, HTML, CSS, and JS are an immensely powerful combination for developing and hosting standalone data-analytics web applications. This FIFA22 app demonstrates how to build an RMarkdown application deployed in Netlify using the GitHub repo.
 
 #### Why this Dashboard ?
 
