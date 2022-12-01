@@ -1,0 +1,16 @@
+ ID,positions,positions_comp,positions_group
+ 1, RW,   Right Winger,    Midfield Positions
+ 2, ST,   Striker,    Attacking Positions
+ 3, CF,   Center Forward,    Attacking Positions
+ 4, LW,   Left Winger,   Midfield Positions  
+ 5, CAM,  Central Attacking Midfielder,   Midfield Positions  
+ 6, CM,   Central Midfield,    Midfield Positions 
+ 7, GK,   Goalkeeper,    Defensive Positions
+ 8, CDM,  Central Defensive Midfielder, Midfield Positions    
+ 9, LM,   Left Midfielder,    Midfield Positions 
+10, CB,   Center Back,  Defensive Positions  
+11, RB,   Right Back,  Defensive Positions     
+12, RM,   Right Midfielder,  Midfield Positions  
+13, LB,   Left Back,  Defensive Positions     
+14, RWB,  Right Wing Back,  Defensive Positions   
+15, LWB,  Left Wing Back, Defensive Positions  

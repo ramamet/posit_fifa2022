@@ -1,0 +1,30 @@
+,club_position,position_exp,position_group
+1,RW,Right Winger,Midfield Positions
+2,ST,Striker,Attacking Positions
+3,LW,Left Winger,Midfield Positions
+4,RCM,Right Center Midfielder,Midfield Positions
+5,GK,Goalkeeper,Defensive Positions
+6,CF,Center Forward,Attacking Positions
+7,CDM,Central Defensive Midfielder,Midfield Positions
+8,LCB,Left Center Back,Defensive Positions
+9,RDM,Right Defensive Midfielder,Midfield Positions
+10,RS,Right Striker,Attacking Positions
+11,LCM,Left Center Midfielder,Midfield Positions
+12,SUB,Substitute,Midfield Positions
+13,CAM,Central Attacking Midfielder,Midfield Positions
+14,RCB,Right Center Back,Defensive Positions
+15,LDM,Left Defensive Midfielder,Midfield Positions
+16,LB,Left Back,Defensive Positions
+17,RB,Right Back,Defensive Positions
+18,LM,Left Midfielder,Midfield Positions
+19,RM,Right Midfielder,Midfield Positions
+20,LS,Left Striker,Attacking Positions
+21,CB,Center Back,Defensive Positions
+22,RES,Reserves,Midfield Positions
+23,RWB,Right Wing Back,Defensive Positions
+24,RF,Right Forward,Attacking Positions
+25,CM,Central Midfield,Midfield Positions
+26,LAM,Left Attacking Midfielder,Midfield Positions
+27,LWB,Left Wing Back,Defensive Positions
+28,LF,Left Forward,Attacking Positions
+29,RAM,Left Attacking Midfielder,Midfield Positions
