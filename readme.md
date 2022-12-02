@@ -2,8 +2,11 @@
 
 > Table Contest 2022 - RMarkdown Dashboard
 
-###### Click here to see our App Demo on Youtube:
-[<div style="width:500px;max-width:100%;"><div style="height:0;padding-bottom:56.2%;position:relative;"><iframe width="500" height="281" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/72vcfl"></iframe></div>](https://www.youtube.com/watch?v=7ViUxpWjOxM)
+###### Click here to see our App Demo:
+
+![image info](./images/app_demo.gif)
+
+[Youtube Link](https://www.youtube.com/watch?v=7ViUxpWjOxM)
 
 #### What is this?
 R, HTML, CSS, and JS are an immensely powerful combination for developing and hosting standalone data-analytics web applications. This FIFA22 app demonstrates how to build an RMarkdown application deployed in Netlify using the GitHub repo.
