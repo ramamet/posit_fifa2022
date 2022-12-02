@@ -1,4 +1,5 @@
-name: "FIFA22"                                
+name: "FIFA22"
+google_analytics: "G-L83R6D3GM6"                                
 output_dir: "_site"
 navbar:
   title: "FIFA22"                            
