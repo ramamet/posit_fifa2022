@@ -38,3 +38,5 @@ My personal website to get in touch with me.
 [Ramanathan Perumal](https://multiscal.netlify.app/)
 
 ramamet4@gmail.com / +918675278440
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/df314703-303f-4eaf-9df0-d996b0c1c1eb/deploy-status)](https://app.netlify.com/sites/posit-fifa22/deploys)
