@@ -115,7 +115,7 @@ $("#tile2" ).on(
 <br />
 
 ::: {#tile1 .info-tile}
-[€‎24.8B]{.info-tile-large-text} <br/>
+[€24.8B]{.info-tile-large-text} <br/>
 <img src="images/world.svg" class="info-tile-img"/></img>
 [Total value of All Countries]{.info-tile-small-text}
 :::
